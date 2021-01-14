@@ -6,7 +6,7 @@ class DegisenWidget extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.grey,
-        title: Text("Stateless - Stateful Farkı"),
+        title: Text("Stateless - Stateful hakkında"),
       ),
       body: HomePage(),
     );
@@ -39,11 +39,11 @@ class MyPageState extends State<HomePage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           FlatButton(
-            child: Text("sayıyı arttır"),
+            child: Text("Sayıyı arttır"),
             onPressed: sayiyiarttir,
           ),
           Text(
-            "Değişebilen sayı:$degisensayi",
+            "Sayımız: $degisensayi",
             textDirection: TextDirection.ltr,
             style: TextStyle(
               color: degisensayi > 0 ? Colors.red : Colors.blue,
@@ -51,7 +51,7 @@ class MyPageState extends State<HomePage> {
             ),
           ),
           FlatButton(
-            child: Text("sayıyı azalt"),
+            child: Text("Sayıyı azalt"),
             onPressed: sayiyiAzalt,
           )
         ],
