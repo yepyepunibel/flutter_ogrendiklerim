@@ -15,5 +15,5 @@ void main() {
     },
   ));
 }
-//state durum less olumsuzluk... Stateless=Durumsuz, uygulama boyunca değişmeyecek widgetler
+//Stateless=Durumsuz, uygulama boyunca değişmeyecek widgetler
 //Statefull duruma göre değişebilen widgetler
