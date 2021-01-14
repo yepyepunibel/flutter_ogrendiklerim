@@ -1,10 +1,15 @@
 # flutter hakkında öğrendiğim ilk şeyler
 
 Bu bir flutter projesidir, web destekler :)
+
 -Scaffold, Appbar, IconButton, kullanımı
+
 -Routing kavramı
+
 -Stateful - stateless kavramı
--GestureDetector=> tek tıklama, çiif tıklama, uzun bir şekilde tıklama
+
+-GestureDetector=> tek tıklama, çift tıklama, uzun bir şekilde tıklama
+
 -GridView özellikleri
 
 
