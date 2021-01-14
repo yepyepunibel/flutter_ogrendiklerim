@@ -15,5 +15,5 @@ void main() {
     },
   ));
 }
-//Stateless=Durumsuz, uygulama boyunca değişmeyecek widgetler
-//Statefull duruma göre değişebilen widgetler
+//Stateless uygulama boyunca değişmeyecek widgets
+//Stateful duruma göre değişebilen widgets
