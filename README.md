@@ -1,6 +1,12 @@
-# flutter_calismalarim
+# flutter hakkında öğrendiğim ilk şeyler
 
-A new Flutter project.
+Bu bir flutter projesidir, web destekler :)
+-Scaffold, Appbar, IconButton, kullanımı
+-Routing kavramı
+-Stateful - stateless kavramı
+-GestureDetector=> tek tıklama, çiif tıklama, uzun bir şekilde tıklama
+-GridView özellikleri
+
 
 ## Getting Started
 
