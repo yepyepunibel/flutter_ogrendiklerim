@@ -12,6 +12,8 @@ Bu bir flutter projesidir, web destekler :)
 
 -GridView özellikleri
 
+-BoxDecoration, DecorationImage, transform "transform: Matrix4.skewY(0.0)..rotateZ)" olayları
+
 
 ## Getting Started
 
