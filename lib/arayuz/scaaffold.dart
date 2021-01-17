@@ -35,10 +35,26 @@ class ScaffoldOgesi extends StatelessWidget {
             GestureDetector(
               onTap: () => Navigator.pushNamed(context, "/ilkders"),
               child: new Container(
-                color: Colors.blue,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: NetworkImage(
+                        "https://htmlcssdersleriogreniyorum.com/img/dersler/html-resim-ekleme(add-a-image).png"),
+                    fit: BoxFit.cover,
+                  ),
+                ),
                 margin: EdgeInsets.all(5),
-                child: Text("Tek tıklama\nilk derse git"),
-                alignment: Alignment.center,
+                child: Transform(
+                  alignment: Alignment.bottomCenter,
+                  transform: Matrix4.skewY(0.0)..rotateZ(0.0),
+                  child: Container(
+                    padding: EdgeInsets.all(8),
+                    color: Color(0xaceedddd),
+                    child: Text(
+                      "Tek tıklama\nilk derse git",
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+                ), //Text("Tek tıklama\nilk derse git"),
               ),
             ),
             GestureDetector(
